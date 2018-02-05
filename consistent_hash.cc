@@ -19,7 +19,7 @@ public:
     string get_name() {return name_;}
     size_t get_id() {return id_;}
 };
-
+/*
 namespace std {
 template<>
 struct hash<Node> 
@@ -37,6 +37,8 @@ hash<Node>::operator()(const Node& nd) const
 }
 
 } // close std
+
+*/
 
 template<typename Node, typename Key>
 class VirtualRing {
